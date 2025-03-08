@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "necatisekmenoglu/docker-instance/aws"
+    source = "ylmzmrt96/docker-instance/aws"
     key_name = "your-keyname"
 }
 ```
